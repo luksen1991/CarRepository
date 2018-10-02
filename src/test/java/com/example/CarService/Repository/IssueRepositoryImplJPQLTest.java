@@ -29,6 +29,7 @@ public class IssueRepositoryImplJPQLTest {
     @Test
     public void findIssueById_basicTest() {
         Issue issue = issueRepositoryImplJPQL.findIssueById(14);
+        System.out.println("SSS" + issue.getId());
         assertEquals(14,issue.getId());
         assertEquals("DKO123",issue.getRegisterNumber());
     }
@@ -37,7 +38,7 @@ public class IssueRepositoryImplJPQLTest {
     public void findAllBasicTest(){
         List<Issue> issueList = issueRepositoryImplJPQL.findAll();
         Issue issue = issueList.get(issueList.size()-1);
-        assertEquals(4,issueList.size());
+        assertEquals(1,issueList.size());
         assertEquals(14,issue.getId());
     }
 

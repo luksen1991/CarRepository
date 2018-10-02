@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3ccf06b-6616-4df8-90b9-3e80ddc286cd" name="Default" comment="" />
+    <list default="true" id="e3ccf06b-6616-4df8-90b9-3e80ddc286cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImplJPQL.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImplJPQL.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplJPQLTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplJPQLTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +19,8 @@
       <file leaf-file-name="IssueRepositoryImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="305">
+              <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
@@ -29,8 +33,18 @@
       <file leaf-file-name="IssueRepositoryImplJPQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImplJPQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+            <state relative-caret-position="148">
+              <caret line="24" column="90" lean-forward="true" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Issue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -39,8 +53,8 @@
       <file leaf-file-name="IssueRepositoryImplJPQLTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplJPQLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="231">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +103,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -110,13 +127,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/REST/IssueRESTController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/CarServiceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/Utils/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImplJPQL.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplJPQLTest.java" />
       </list>
@@ -150,6 +167,7 @@
     <option name="width" value="1440" />
     <option name="height" value="841" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -343,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IssueRepositoryImplJPQLTest.deleteRecordBasic">
+  <component name="RunManager" selected="JUnit.IssueRepositoryImplJPQLTest.findIssueById_basicTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -565,9 +583,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.deleteRecordBasic" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.findIssueById_basicTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.findAllBasicTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.findIssueById_basicTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.findAllBasicTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplJPQLTest.deleteRecordBasic" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplTest.addIssue" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.IssueRepositoryImplTest.playWithEntityManagerTest" />
       </list>
@@ -590,7 +608,7 @@
       <workItem from="1537284055332" duration="142000" />
       <workItem from="1537807165429" duration="884000" />
       <workItem from="1537820554797" duration="14079000" />
-      <workItem from="1538141053318" duration="6180000" />
+      <workItem from="1538141053318" duration="7352000" />
     </task>
     <servers />
   </component>
@@ -607,27 +625,27 @@
     <history-entry file="IssueRepositoryImplJPQLTest_deleteRecordBasic - 2018.10.02 at 21h 59m 35s.xml">
       <configuration name="IssueRepositoryImplJPQLTest.deleteRecordBasic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IssueRepositoryImplJPQLTest_findAllBasicTest - 2018.10.02 at 15h 36m 30s.xml">
-      <configuration name="IssueRepositoryImplJPQLTest.findAllBasicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IssueRepositoryImplJPQLTest_findAllBasicTest - 2018.10.02 at 15h 38m 19s.xml">
-      <configuration name="IssueRepositoryImplJPQLTest.findAllBasicTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IssueRepositoryImplJPQLTest_findAllBasicTest - 2018.10.02 at 15h 39m 44s.xml">
       <configuration name="IssueRepositoryImplJPQLTest.findAllBasicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IssueRepositoryImplJPQLTest_findIssueById_basicTest - 2018.10.02 at 15h 32m 23s.xml">
-      <configuration name="IssueRepositoryImplJPQLTest.findIssueById_basicTest" configurationId="JUnit" />
+    <history-entry file="IssueRepositoryImplJPQLTest_findAllBasicTest - 2018.10.03 at 01h 26m 09s.xml">
+      <configuration name="IssueRepositoryImplJPQLTest.findAllBasicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IssueRepositoryImplJPQLTest_findIssueById_basicTest - 2018.10.02 at 15h 32m 51s.xml">
-      <configuration name="IssueRepositoryImplJPQLTest.findIssueById_basicTest" configurationId="JUnit" />
+    <history-entry file="IssueRepositoryImplJPQLTest_findAllBasicTest - 2018.10.03 at 01h 29m 59s.xml">
+      <configuration name="IssueRepositoryImplJPQLTest.findAllBasicTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="IssueRepositoryImplJPQLTest_findIssueById_basicTest - 2018.10.02 at 15h 43m 32s.xml">
       <configuration name="IssueRepositoryImplJPQLTest.findIssueById_basicTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IssueRepositoryImplJPQLTest_findIssueById_basicTest - 2018.10.03 at 01h 33m 01s.xml">
+      <configuration name="IssueRepositoryImplJPQLTest.findIssueById_basicTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IssueRepositoryImplJPQLTest_findIssueById_basicTest - 2018.10.03 at 01h 33m 47s.xml">
+      <configuration name="IssueRepositoryImplJPQLTest.findIssueById_basicTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25073000" />
+    <option name="totallyTimeSpent" value="26245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="34" width="1440" height="841" extended-state="0" />
@@ -650,7 +668,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2855228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -759,6 +777,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +852,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,6 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,14 +942,6 @@
             <element signature="e#967#968#0" expanded="false" />
             <element signature="e#1021#1022#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="305">
+          <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
@@ -1021,18 +1034,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Domain/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CarService/Repository/IssueRepositoryImplJPQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        <state relative-caret-position="148">
+          <caret line="24" column="90" lean-forward="true" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CarService/Repository/IssueRepositoryImplJPQLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="231">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

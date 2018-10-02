@@ -1,17 +1,13 @@
 package com.example.CarService.Domain;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 
 @Entity
+@NamedQueries(value = {
+		@NamedQuery(name = "query_get_all",query = "SELECT issue FROM Issue issue"),
+		@NamedQuery(name = "get_by_id", query = "SELECT issue FROM Issue issue WHERE issue.id= :id")
+})
 @Table(name="issue")
 public class Issue {
 

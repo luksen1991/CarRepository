@@ -22,7 +22,7 @@ public class IssueRepositoryImplJPQL {
 //    }
 
     public Issue findIssueById(int id){
-        TypedQuery<Issue> issueResult = HibernateUtil.getEntityManager().createQuery("SELECT issue FROM Issue issue WHERE issue.id= :id",Issue.class);
+        TypedQuery<Issue> issueResult = HibernateUtil.getEntityManager().createNamedQuery("get_by_id",Issue.class);
         logger.info("Select issue from Issue issue where issue.id=id: RESULT: ",issueResult);
         issueResult.setParameter("id",id);
         Issue issue = issueResult.getSingleResult();
@@ -43,7 +43,7 @@ public class IssueRepositoryImplJPQL {
     }
 //
     public List<Issue> findAll(){
-        Query issues = HibernateUtil.getEntityManager().createQuery("SELECT issue FROM Issue issue",Issue.class);
+        Query issues = HibernateUtil.getEntityManager().createNamedQuery("query_get_all",Issue.class);
         List<Issue> listIssues = issues.getResultList();
         return listIssues;
     }
