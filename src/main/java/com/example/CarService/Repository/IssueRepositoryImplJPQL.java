@@ -31,9 +31,14 @@ public class IssueRepositoryImplJPQL {
 
     }
 
-//    public Issue updateIssue(Issue issue){
-//
-//    }
+    public List<Issue> getIssueNativeQuery(String registrationNumber){
+
+        Query query = HibernateUtil.getEntityManager().createNativeQuery("SELECT * FROM CarServic.issue WHERE CarServic.issue.RegisterNumber= :registerNumber",Issue.class);
+        query.setParameter("registerNumber",registrationNumber);
+        List<Issue> issueList = query.getResultList();
+        return issueList;
+
+    }
 //
     public void deleteById(int id){
         String Id = Integer.toString(id);

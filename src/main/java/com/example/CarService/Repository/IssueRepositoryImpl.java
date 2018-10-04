@@ -48,23 +48,23 @@ public class IssueRepositoryImpl{
     }
 
     public void playWithEntityManager(){
-
-        HibernateUtil.initManager();
-        Issue issue = new Issue("Uszkodzony silnik","Audi Q11","DSD123","Adam Klaster", "Auto nie odpala");
-        Issue issue2 = new Issue("Uszkodzone drzwi","Audi A66", "DKO123","Adam Poter", "Drzwi nie otwieraja sie");
-        HibernateUtil.getEntityManager().persist(issue);
-        HibernateUtil.getEntityManager().persist(issue2);
-
-        HibernateUtil.getEntityManager().flush();
-        HibernateUtil.getEntityManager().clear();
-
-        issue.setCarModel("Audi Q3");
-        HibernateUtil.getEntityManager().flush();
-
-        issue2.setCarModel("Audi A8");
-        HibernateUtil.getEntityManager().flush();
-
-        HibernateUtil.shutdown();
+//
+//        HibernateUtil.initManager();
+//        Issue issue = new Issue("Uszkodzony silnik","Audi Q11","DSD123","Adam Klaster", "Auto nie odpala");
+//        Issue issue2 = new Issue("Uszkodzone drzwi","Audi A66", "DKO123","Adam Poter", "Drzwi nie otwieraja sie");
+//        HibernateUtil.getEntityManager().persist(issue);
+//        HibernateUtil.getEntityManager().persist(issue2);
+//
+//        HibernateUtil.getEntityManager().flush();
+//        HibernateUtil.getEntityManager().clear();
+//
+//        issue.setCarModel("Audi Q3");
+//        HibernateUtil.getEntityManager().flush();
+//
+//        issue2.setCarModel("Audi A8");
+//        HibernateUtil.getEntityManager().flush();
+//
+//        HibernateUtil.shutdown();
 
     }
 }

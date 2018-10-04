@@ -52,4 +52,18 @@ public class IssueRepositoryImplJPQLTest {
         assertEquals(issueRepositoryImplJPQL.findIssueById(chosenRecord),null);
     }
 
+    @Test
+    public void getIssueNativeQueryTest(){
+        String registerNumber = "DKL123";
+        int expectedResult = 2;
+
+        List<Issue> issueList = issueRepositoryImplJPQL.getIssueNativeQuery(registerNumber);
+
+        for (Issue issue : issueList) {
+            System.out.println(issue.getRegisterNumber());
+            System.out.println(issue.getCarModel());
+        }
+        assertEquals(expectedResult,issueRepositoryImplJPQL.getIssueNativeQuery(registerNumber).size());
+    }
+
 }

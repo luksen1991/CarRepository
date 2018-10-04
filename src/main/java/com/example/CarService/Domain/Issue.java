@@ -1,6 +1,8 @@
 package com.example.CarService.Domain;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Entity
@@ -30,23 +32,31 @@ public class Issue {
 	
 	@Column(name="IssueDescription")
 	private String issueDescription;
-	
-	
-//	@ManyToOne(cascade = CascadeType.ALL)
-//	@JoinColumn(name="workerid")
-//	private Worker worker;
 
-	protected Issue(){};
+	@ManyToOne()
+    private Worker worker;
 
-	public Issue(String title, String carModel, String registerNumber, String clientName, String issueDescription) {
-		this.title = title;
-		this.carModel = carModel;
-		this.registerNumber = registerNumber;
-		this.clientName = clientName;
-		this.issueDescription = issueDescription;
-	}
 
-	public int getId() {
+    public Issue(){};
+
+    public Issue(String title, String carModel, String registerNumber, String clientName, String issueDescription, Worker worker) {
+        this.title = title;
+        this.carModel = carModel;
+        this.registerNumber = registerNumber;
+        this.clientName = clientName;
+        this.issueDescription = issueDescription;
+        this.worker = worker;
+    }
+
+    public Worker getWorker() {
+        return worker;
+    }
+
+    public void setWorker(Worker worker) {
+        this.worker = worker;
+    }
+
+    public int getId() {
 		return id;
 	}
 
